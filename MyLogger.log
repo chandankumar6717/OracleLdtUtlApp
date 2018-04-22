@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2018-02-24T20:19:00</date>
-  <millis>1519483740801</millis>
+  <date>2018-04-22T16:41:57</date>
+  <millis>1524395517487</millis>
   <sequence>0</sequence>
   <logger>global</logger>
   <level>INFO</level>
@@ -13,8 +13,8 @@
   <message>Logging has been started</message>
 </record>
 <record>
-  <date>2018-02-24T20:19:00</date>
-  <millis>1519483740815</millis>
+  <date>2018-04-22T16:41:57</date>
+  <millis>1524395517501</millis>
   <sequence>1</sequence>
   <logger>global</logger>
   <level>INFO</level>
