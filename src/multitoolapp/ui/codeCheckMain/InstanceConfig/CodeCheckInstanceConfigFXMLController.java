@@ -6,7 +6,6 @@
 package multitoolapp.ui.codeCheckMain.InstanceConfig;
 
 import java.net.URL;
-
 import java.util.ResourceBundle;
 import javafx.fxml.Initializable;
 
