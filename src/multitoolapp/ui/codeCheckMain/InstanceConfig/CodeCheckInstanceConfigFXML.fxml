@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="326.0" prefWidth="402.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="multitoolapp.ui.LdtMain.config.LdtConfigFXMLController">
+   <children>
+      <HBox alignment="BOTTOM_CENTER" prefHeight="33.0" prefWidth="400.0">
+         <children>
+            <Text fill="#2885d0" strokeType="OUTSIDE" strokeWidth="0.0" text="Code CheckOut Instance Setup!!">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="15.0" prefWidth="400.0">
+         <children>
+            <Separator prefHeight="12.0" prefWidth="416.0" HBox.hgrow="ALWAYS" />
+         </children>
+      </HBox>
+      <GridPane alignment="CENTER" prefHeight="176.0" prefWidth="402.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="195.0" minWidth="10.0" prefWidth="130.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="273.0" minWidth="10.0" prefWidth="270.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label text="Instance Name" GridPane.halignment="RIGHT" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="54.0" text="JDBC Conn. String" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="54.0" text="DB User Password" GridPane.halignment="RIGHT" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="177.0" text="Db User" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtFieldInstanceName" prefHeight="25.0" prefWidth="254.0" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets left="15.0" right="20.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="TextFieldJDBCstring" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="15.0" right="20.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="txtNonAppsDBUser" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="15.0" right="20.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="pwdNonAppsDbUsePwd" accessibleRole="PASSWORD_FIELD" prefHeight="18.0" prefWidth="236.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="15.0" right="20.0" />
+               </GridPane.margin>
+            </TextField>
+         </children>
+      </GridPane>
+      <HBox alignment="CENTER" prefHeight="42.0" prefWidth="400.0" spacing="30.0">
+         <children>
+            <Button fx:id="btnSaveConfig" mnemonicParsing="false" onAction="#btnSaveConfigAction" text="Save Configuration" />
+            <Button fx:id="btnConfigOk" mnemonicParsing="false" onAction="#btnConfigOkAction" text="OK" />
+         </children>
+      </HBox>
+   </children>
+</VBox>

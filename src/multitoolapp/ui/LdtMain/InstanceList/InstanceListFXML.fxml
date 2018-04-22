@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="178.0" prefWidth="590.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="multitoolapp.ui.LdtMain.InstanceList.InstanceListFXMLController">
+   <children>
+      <HBox alignment="TOP_CENTER" prefHeight="31.0" prefWidth="477.0">
+         <children>
+            <Label layoutX="161.0" layoutY="25.0" text="Master Instance Names" textFill="#2787cf">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets top="15.0" />
+         </padding>
+      </HBox>
+      <Separator prefWidth="200.0" />
+      <HBox alignment="CENTER" prefHeight="44.0" prefWidth="557.0" spacing="5.0">
+         <opaqueInsets>
+            <Insets left="20.0" />
+         </opaqueInsets>
+         <children>
+            <Label alignment="CENTER_RIGHT" text="All Instance Names">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="textMasterInstanceNames" prefHeight="25.0" prefWidth="366.0">
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="31.0" prefWidth="590.0" spacing="20.0">
+         <children>
+            <Text fill="#f51a1a" strokeType="OUTSIDE" strokeWidth="0.0" text="Please Enter All Instance Names Seperated By comma">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="51.0" prefWidth="590.0" spacing="15.0">
+         <children>
+            <Button fx:id="btnSaveMasterInstance" mnemonicParsing="false" onAction="#BtnInstanceListSaveAction" text="Save" />
+            <Button fx:id="btnMasterCancle" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnInstanceListCancleAction" text="Cancel" />
+         </children>
+      </HBox>
+   </children>
+</VBox>

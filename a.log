@@ -1,0 +1,36 @@
+You have pressed the ldt loader button on main screen
+config file reader has been initiated for:MASTERTINSTANCELIST
+hearinstance1,instance2,sfsadsadsa,sda
+ComboBoxInstanceACTION:instance1
+You have pressed the ldt loader button on main screen
+config file reader has been initiated for:MASTERTINSTANCELIST
+hearinstance1,instance2,sfsadsadsa,sda
+ComboBoxInstanceACTION:instance1
+txtFieldInstanceName.getText()before initilizationinstance1
+pro_UNIX_HOST:null
+config file reader has been initiated for:instance1_INSTANCENAME
+config file reader has been initiated for:instance1_UNIX_HOST
+config file reader has been initiated for:instance1_UNIX_USER
+config file reader has been initiated for:instance1_UNIX_USER_PWD
+config file reader has been initiated for:instance1_UNIX_ENV_CMD
+config file reader has been initiated for:instance1_UNIX_TEMP_PATH
+config file reader has been initiated for:instance1_JDBC_CON_STRING
+config file reader has been initiated for:instance1_APPS_PWD
+Saving Config FIle
+saving config file has been inititated
+saving config file has been inititated
+saving config file has been inititated
+saving config file has been inititated
+saving config file has been inititated
+saving config file has been inititated
+saving config file has been inititated
+saving config file has been inititated
+You have pressed the ldt loader button on main screen
+config file reader has been initiated for:MASTERTINSTANCELIST
+hearinstance1,instance2,sfsadsadsa,sda
+You have pressed the ldt loader button on main screen
+config file reader has been initiated for:MASTERTINSTANCELIST
+hearinstance1,instance2,sfsadsadsa,sda
+You have pressed the ldt loader button on main screen
+config file reader has been initiated for:MASTERTINSTANCELIST
+hearinstance1,instance2,sfsadsadsa,sda

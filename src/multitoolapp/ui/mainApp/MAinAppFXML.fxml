@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="multitoolapp.ui.mainApp.MAinAppFXMLController">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <MenuBar>
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <HBox alignment="TOP_CENTER" prefHeight="34.0" prefWidth="600.0">
+               <children>
+                  <Text fill="#1349c9" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome To Multi Utility Tool">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+            <Separator prefWidth="200.0" />
+            <HBox alignment="BOTTOM_CENTER" prefHeight="67.0" prefWidth="600.0">
+               <children>
+                  <Text fill="#1349c9" strokeType="OUTSIDE" strokeWidth="0.0" text="Click Button To Open Tool" wrappingWidth="263.986328125">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font></Text>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="20.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="77.0" prefWidth="600.0" spacing="20.0">
+               <children>
+                  <Button fx:id="btnMainLdt" alignment="CENTER" mnemonicParsing="false" onAction="#LoadLdtToolEvent" prefHeight="52.0" prefWidth="103.0" style="-fx-background-radius: 10;" text="Ldt Tool" />
+                  <Button fx:id="btnCodeCheckout" mnemonicParsing="false" onAction="#CodeCheckOutAction" prefHeight="52.0" prefWidth="103.0" style="-fx-background-radius: 10;" text="Code Checkout" />
+               </children>
+            </HBox>
+            <HBox alignment="BOTTOM_CENTER" prefHeight="73.0" prefWidth="600.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#btnCloseAction" style="-fx-background-radius: 10;" text="Close" />
+               </children></HBox>
+         </children>
+      </VBox>
+   </children>
+</StackPane>
